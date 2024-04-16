@@ -7,7 +7,7 @@ from scipy.stats import gmean
 
 columns = ['name', 'rows', 'columns', 'entries', 'iter', 'albba']
 
-file_path2 = '../../bfs/data/BFS_DFC_ompruntime-results.csv'
+file_path2 = '../../bfs/data/BFS_DFC_omp_runtime-results.csv'
 df_h100 = pd.read_csv(file_path2, header=None, names=columns)
 
 # Ensuring all necessary columns are present and not empty
@@ -81,6 +81,6 @@ n_ticks = 5
 
 plt.tight_layout()
 
-plt.savefig("../../bfs/figures/perf-hist.eps", dpi = 300)
+plt.savefig("../../bfs/figures/perf_hist.pdf", dpi = 300)
 
 plt.show()

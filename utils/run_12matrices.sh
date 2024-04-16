@@ -9,12 +9,11 @@ make
 cd ..
 
 #data preparation
-python3 download_dataset.py
+python3 download_12matrices.py
 
 #experimental evaluation--performance data collection
-bash bench-runtime.sh
+bash bench-run12matrices.sh
 
 # experimental evaluation--figure plotting
 cd plot
-python3 perf-scatter-hits.py
-python3 bypass-hitsgram.py
+python3 perf-bar.py

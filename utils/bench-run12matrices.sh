@@ -1,6 +1,6 @@
 #!/bin/bash
 
-input="dataset-bfs.csv"
+input="12matrices.csv"
 {
   read
   i=0

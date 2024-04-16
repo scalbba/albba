@@ -47,7 +47,7 @@ void BFS_ReportResults(const SparseMatrixCSR *matrix,
     // Copy the substring after the last '/' into the character array
     strcpy(char_array, last_slash_ptr + 1);
     char alg_filename[50];
-    sprintf(alg_filename, "%s%s%s", "../bfs/data/", algorithm_version, "runtime-results.csv");
+    sprintf(alg_filename, "%s%s%s", "../bfs/data/", algorithm_version, "_runtime-results.csv");
 
     if (bypass_record == 0){
     FILE *filename = fopen(alg_filename, "a");

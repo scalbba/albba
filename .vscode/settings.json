@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "__hash_table": "c",
+        "unordered_map": "c",
+        "macros.h": "c",
+        "sparse_matrix.h": "c",
+        "common.h": "c",
+        "stdint.h": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c",
+        "libgen.h": "c",
+        "velintrin.h": "c",
+        "sparse_format_vbsf.h": "c",
+        "mytimer.h": "c",
+        "spmv_par_kernels.h": "c",
+        "__locale": "c",
+        "numeric": "c",
+        "float.h": "c",
+        "typeinfo": "c",
+        "report_results.h": "c"
+    }
+}
